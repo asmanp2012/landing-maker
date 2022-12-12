@@ -1,0 +1,20 @@
+{
+  "name": "@godgiven/app-content",
+  "version": "0.0.0",
+  "description": "Godgiven app-content",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "pwa",
+    "ui",
+    "typescript"
+  ],
+  "files": [
+    "**/*.{d.ts.map,d.ts,js.map,js,html,md}"
+  ],
+  "dependencies": {
+    "lit": "^2.5.0",
+    "tslib": "^2.4.0"
+  }
+}

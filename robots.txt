@@ -1,0 +1,3 @@
+Sitemap: https://kjoo.ir/sitemap/
+User-agent: *
+Allow: /
