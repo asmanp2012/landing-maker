@@ -12,7 +12,7 @@ export class AppRoot extends LitElement {
     {
       const styleTag = document.createElement('style');
       styleTag.id = 'app-root-style';
-      styleTag.innerHTML = `${styleTag.innerHTML}\n${mixStyle}`;
+      styleTag.innerHTML = mixStyle;
       head?.appendChild(styleTag);
     }
     else
